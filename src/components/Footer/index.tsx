@@ -144,7 +144,7 @@ const Footer: React.FC = () => {
           <IconGithub fontSize={15} className="text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100" />
         </a>
 
-        <button
+{/*         <button
           className="cursor-pointer"
           type="button"
           onClick={(e) => {
@@ -155,8 +155,8 @@ const Footer: React.FC = () => {
         >
           <IconXiaoHongShu fontSize={14} className="text-gray-500 hover:text-red-500 dark:text-gray-400 dark:hover:text-red-500" />
         </button>
-
-        <button
+ */}
+{/*         <button
           className="cursor-pointer focus:outline-none"
           type="button"
           onClick={(e) => {
@@ -166,11 +166,11 @@ const Footer: React.FC = () => {
           aria-label="加入我们的微信用户群"
         >
           <IconWechat2 fontSize={16} className="text-gray-500 hover:text-green-500 dark:text-gray-400 dark:hover:text-green-500" />
-        </button>
+        </button> */}
 
-        <a href="https://twitter.com/real_kai42" target="_blank" title="x" rel="noreferrer">
-          <IconTwitter fontSize={16} className="text-gray-500 hover:text-[#1DA1F2] dark:text-gray-400 dark:hover:text-[#1DA1F2]" />
-        </a>
+        // <a href="https://twitter.com/real_kai42" target="_blank" title="x" rel="noreferrer">
+        //   <IconTwitter fontSize={16} className="text-gray-500 hover:text-[#1DA1F2] dark:text-gray-400 dark:hover:text-[#1DA1F2]" />
+        // </a>
         <button
           className="cursor-pointer focus:outline-none "
           type="button"
@@ -222,17 +222,17 @@ const Footer: React.FC = () => {
           @ Qwerty Learner
         </button>
 
-        <a
+{/*         <a
           className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           href="https://beian.miit.gov.cn"
           target="_blank"
           rel="noreferrer"
         >
           鲁ICP备2022030649号
-        </a>
-        <span className="select-none rounded bg-slate-200 px-1 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+        </a> */}
+{/*         <span className="select-none rounded bg-slate-200 px-1 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400">
           Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
-        </span>
+        </span> */}
       </footer>
     </>
   )
